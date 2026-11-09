@@ -1,0 +1,41 @@
+export const USER_ROLES = Object.freeze({
+  ADMIN: "ADMIN",
+  USER: "USER",
+  DRIVER: "DRIVER",
+});
+
+export const PRODUCT_STATUS = Object.freeze({
+  AVAILABLE: "AVAILABLE",
+  OUT_OF_STOCK: "OUT_OF_STOCK",
+});
+
+export const ORDER_STATUS = Object.freeze({
+  PENDING: "PENDING",
+  CONFIRMED: "CONFIRMED",
+  PREPARING: "PREPARING",
+  READY_FOR_DELIVERY: "READY_FOR_DELIVERY",
+  COMPLETED: "COMPLETED",
+  CANCELLED: "CANCELLED",
+});
+
+export const ORDER_PRIORITY = Object.freeze({
+  LOW: "LOW",
+  NORMAL: "NORMAL",
+  HIGH: "HIGH",
+  URGENT: "URGENT",
+});
+
+export const DELIVERY_STATUS = Object.freeze({
+  PENDING: "PENDING",
+  ASSIGNED: "ASSIGNED",
+  IN_TRANSIT: "IN_TRANSIT",
+  DELIVERED: "DELIVERED",
+});
+
+
+export const USER_DOCUMENT_TYPES = Object.freeze({
+  IDENTITY: "IDENTITY",
+  ADDRESS_PROOF: "ADDRESS_PROOF",
+  DRIVER_LICENSE: "DRIVER_LICENSE",
+  OTHER: "OTHER",
+});
